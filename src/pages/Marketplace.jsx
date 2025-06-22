@@ -101,13 +101,13 @@ const Marketplace = ({ user }) => {
                 src={
                   item.images.length > 0
                     ? item.images[0]
-                    : "https://cdn.britannica.com/17/176517-050-6F2B774A/Pile-uncooked-rice-grains-Oryza-sativa.jpg"
+                    : "https://www.shaalaa.com/images/_4:99d93c3f0d564667896dbd389f698d91.png"
                 }
                 alt="product"
                 onError={(e) => {
                   console.warn("Image failed to load:", e.target.src);
                   e.target.src =
-                    "https://cdn.britannica.com/17/176517-050-6F2B774A/Pile-uncooked-rice-grains-Oryza-sativa.jpg";
+                    "https://www.shaalaa.com/images/_4:99d93c3f0d564667896dbd389f698d91.png";
                 }}
               />
               <h3 className="pl-2 mx-3 border-b border-slate-200">
