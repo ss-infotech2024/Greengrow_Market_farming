@@ -85,13 +85,13 @@ const ItemDetails = () => {
                 onError={(e) => {
                   console.warn("Image failed to load:", e.target.src);
                   e.target.src =
-                    "https://dummyimage.com/600x400/cccccc/000000&text=No+Image";
+                    "https://www.shaalaa.com/images/_4:99d93c3f0d564667896dbd389f698d91.png";
                 }}
               />
             ))
           ) : (
             <img
-              src="https://dummyimage.com/600x400/cccccc/000000&text=No+Image"
+              src="https://www.shaalaa.com/images/_4:99d93c3f0d564667896dbd389f698d91.png"
               alt="default"
               className="h-full object-cover mx-auto"
             />
